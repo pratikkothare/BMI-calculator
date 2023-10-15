@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;  
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/1772364272/display_1500/stock-photo--d-render-abstract-female-body-type-colorful-geometric-shapes-with-black-legs-isolated-on-white-1772364272.jpg');
+    /* background-color: rgb(185, 245, 193); */
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(246, 249, 247);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 32px;
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #444444;
+}
